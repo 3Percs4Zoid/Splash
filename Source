@@ -20,7 +20,7 @@ getgenv().Splash = {
         ['Enabled'] = true, -- // Self-explanatory
         ['Prediction'] = 0, -- // Prediction on the aim assist
         ['Smoothness'] = 1, -- // Smoothness of the aim assist
-        ['AimPart'] = "Head",
+        ['AimPart'] = "UpperTorso",
         ['DisableOutSideFov'] = true,
         ['Nearest_Part'] = false,
     },    
