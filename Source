@@ -20,13 +20,13 @@ getgenv().Splash = {
         ['Enabled'] = true, -- // Self-explanatory
         ['Prediction'] = 0, -- // Prediction on the aim assist
         ['Smoothness'] = 1, -- // Smoothness of the aim assist
-        ['AimPart'] = "UpperTorso",
+        ['AimPart'] = "Head",
         ['DisableOutSideFov'] = true,
         ['Nearest_Part'] = false,
     },    
     FOV = {
         ['Visible'] = false, -- // // FOV visible or not
-        ['Radius'] = 12, -- // FOV radius
+        ['Radius'] = 21, -- // FOV radius
         ['Color'] = Color3.fromRGB(0, 162, 255), -- // Color of FOV
         ['Filled'] = false,
         ['Transparency'] = 0.25,
