@@ -11,8 +11,8 @@ getgenv().Splash = {
         ['Aiming_Type'] = "Point", -- // Point, Part, Default, WIP.
         ['ClosestPart'] = true, -- // Gets Closest Part On The Player
         ['Predict'] = true,
-        ['Prediction'] = 0.1259910, -- // Prediction Of Silent
-        ['HitChance'] = 500, -- // Hit Changc To Hit More/Less Shots
+        ['Prediction'] = 0.13283223, -- // Prediction Of Silent
+        ['HitChance'] = 100, -- // Hit Changc To Hit More/Less Shots
         ['Part'] = "Head", -- // HitPart of where the silent shoots.
     },
     Aim_Assist = {
@@ -35,8 +35,8 @@ getgenv().Splash = {
     },
     Shake = {
         ['Shake_Enabled'] = true,
-        ['X'] = 07,
-        ['Y'] = 08,
+        ['X'] = 06,
+        ['Y'] = 06,
         ['Z'] = 05
     },
     Easing_Styles = {
