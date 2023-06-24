@@ -11,8 +11,8 @@ getgenv().Splash = {
         ['Aiming_Type'] = "Point", -- // Point, Part, Default, WIP.
         ['ClosestPart'] = true, -- // Gets Closest Part On The Player
         ['Predict'] = true,
-        ['Prediction'] = 0.115, -- // Prediction Of Silent
-        ['HitChance'] = 100, -- // Hit Changc To Hit More/Less Shots
+        ['Prediction'] = 0.189213, -- // Prediction Of Silent
+        ['HitChance'] = 200, -- // Hit Changc To Hit More/Less Shots
         ['Part'] = "Head", -- // HitPart of where the silent shoots.
     },
     Aim_Assist = {
