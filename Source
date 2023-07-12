@@ -11,8 +11,8 @@ getgenv().Splash = {
         ['Aiming_Type'] = "Point", -- // Point, Part, Default, WIP.
         ['ClosestPart'] = true, -- // Gets Closest Part On The Player
         ['Predict'] = true,
-        ['Prediction'] =  0.1652131, -- // Prediction Of Silent
-        ['HitChance'] = 900, -- // Hit Changc To Hit More/Less Shots
+        ['Prediction'] =  0.1398, -- // Prediction Of Silent
+        ['HitChance'] = 300, -- // Hit Changc To Hit More/Less Shots
         ['Part'] = "Head", -- // HitPart of where the silent shoots.
     },
     Aim_Assist = {
@@ -26,7 +26,7 @@ getgenv().Splash = {
     },    
     FOV = {
         ['Visible'] = false, -- // // FOV visible or not
-        ['Radius'] = 12, -- // FOV radius
+        ['Radius'] = 55, -- // FOV radius
         ['Color'] = Color3.fromRGB(0, 162, 255), -- // Color of FOV
         ['Filled'] = false,
         ['Transparency'] = 0.25,
