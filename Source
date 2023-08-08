@@ -11,8 +11,8 @@ getgenv().Splash = {
         ['Aiming_Type'] = "Point", -- // Point, Part, Default, WIP.
         ['ClosestPart'] = true, -- // Gets Closest Part On The Player
         ['Predict'] = true,
-        ['Prediction'] =  0.156692, -- // Prediction Of Silent
-        ['HitChance'] = 300, -- // Hit Changc To Hit More/Less Shots
+        ['Prediction'] =  0.136, -- // Prediction Of Silent
+        ['HitChance'] = 900, -- // Hit Changc To Hit More/Less Shots
         ['Part'] = "Head", -- // HitPart of where the silent shoots.
     },
     Aim_Assist = {
@@ -22,7 +22,7 @@ getgenv().Splash = {
         ['Smoothness'] = 1, -- // Smoothness of the aim assist
         ['AimPart'] = "UpperTorso",
         ['DisableOutSideFov'] = true,
-        ['Nearest_Part'] = false,
+        ['Nearest_Part'] = true,
     },    
     FOV = {
         ['Visible'] = false, -- // // FOV visible or not
@@ -34,7 +34,7 @@ getgenv().Splash = {
         ['NumSides'] = 32
     },
     Shake = {
-        ['Shake_Enabled'] = true,
+        ['Shake_Enabled'] = false,
         ['X'] = 06,
         ['Y'] = 06,
         ['Z'] = 05
